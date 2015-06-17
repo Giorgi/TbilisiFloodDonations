@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/treemap.js"></script>
+    <style>
+        #container {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script type="text/javascript">
+        $(function () {
+            $('#container').highcharts({
+                series: [{
+                    type: "treemap",
+                    alternateStartingDirection: true,
+                    layoutAlgorithm: 'squarified',
+                    levels: [{
+                        level: 1,
+                        dataLabels: {
+                            style: {
+                                fontSize: '16px'
+                            }
+                        }
+                    }],
+                    data: [{
+                        id: 'A',
+                        name: 'Petrocas Energy Group',
+                        value: 300,
+                        color: "#EC2500",
+                        dataLabels: { style: { fontSize: '36px' } }
+                    }, {
+                        id: 'B',
+                        name: 'Casino Adjara',
+                        value: 100,
+                        color: "#ECE100",
+                        dataLabels: { style: { fontSize: '32px' } }
+                    }, {
+                        id: 'C',
+                        name: 'Liberty Bank',
+                        value: 100,
+                        color: "#ECE100"
+                    }, {
+                        id: 'D',
+                        name: 'Bank Of Georgia',
+                        value: 100,
+                        color: "#ECE100"
+                    }, {
+                        id: 'E',
+                        name: 'PSP',
+                        value: 100,
+                        color: "#ECE100"
+                    }, {
+                        id: 'F',
+                        name: 'Aversi',
+                        value: 100,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'TBC Bank',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Progress Bank',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'საქართველოს ფოსტა',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Europe-Bet',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Socar',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'საქართველოს რკინიგზა',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Silk Road Group',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Magti',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Geocell',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ინტერპრესნიუსი',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'სახელმწიფო აუდიტის სამსახური',
+                        value: 50,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Bank Republic',
+                        value: 30,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Procredit Bank',
+                        value: 30,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Wissol',
+                        value: 30,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Azəryolservis',
+                        value: 30,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ევექსი',
+                        value: 25,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'იმედი L',
+                        value: 25,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ORIFLAME',
+                        value: 25,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'GOLF CLUB AMBASADORI',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ბილაინი',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'IDS ბორჯომი საქართველო',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Casino Shangri La',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ლუკოილი',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ნიკორა',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ნატახტარი',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'RAK Investment Authority',
+                        value: 20,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'DFA',
+                        value: 10,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'საქართველოს ინდუსტრიული ჯგუფი',
+                        value: 10,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'TOYOTA',
+                        value: 10,
+                        color: '#EC9800',
+                        dataLabels: { style: { fontSize: '12px' } }
+                    }, {
+                        id: 'F',
+                        name: 'Tegeta',
+                        value: 10,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ზედაზენი',
+                        value: 10,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'IBG',
+                        value: 10,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'ბარამბო',
+                        value: 15,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'არქი ჯგუფი',
+                        value: 10,
+                        color: '#EC9800'
+                    }, {
+                        id: 'F',
+                        name: 'Crystal',
+                        value: 5,
+                        color: '#EC9800',
+                        dataLabels: { style: { fontSize: '8px' } }
+                    }, {
+                        id: 'F',
+                        name: 'გლდანის შაურმა',
+                        value: 5,
+                        color: '#EC9800',
+                        dataLabels: { style: { fontSize: '10px' } }
+                    }, {
+                        id: 'F',
+                        name: 'ზოდი',
+                        value: 4,
+                        color: '#EC9800',
+                        dataLabels: { style: { fontSize: '10px' } }
+                    }]
+                }],
+                title: {
+                    text: ''
+                }, credits: {
+                    enabled: false
+                }
+            });
+        });
+    </script>
+</body>
+</html>
