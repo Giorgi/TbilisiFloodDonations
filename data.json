@@ -1,6 +1,20 @@
 {
     "data": [
         {
+            "name": "საქპატენტი",
+            "value": 1000,
+            "color": "#4079A1",
+            "info": {
+                "url": "http://www.sakpatenti.org.ge/",
+                "logo": "http://internet.ge/v2/news_images/201106222949.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "32px"
+                }
+            }
+        },
+        {
             "name": "Georgian American Alloys",
             "value": 500,
             "color": "#282828",
@@ -25,6 +39,20 @@
             "dataLabels": {
                 "style": {
                     "fontSize": "36px"
+                }
+            }
+        },
+        {
+            "name": "HUALING GROUP",
+            "value": 100,
+            "color": "#E7D4AA",
+            "info": {
+                "url": "http://www.hualing.ge/geo/index.html",
+                "logo": "http://www.hualing.ge/geo/img/logo.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "32px"
                 }
             }
         },
@@ -342,6 +370,24 @@
             "info": {
                 "url": "http://dfa.ge/",
                 "logo": "http://dfa.ge/images/logotype.png"
+            }
+        },
+        {
+            "name": "Global Security Company",
+            "value": 10,
+            "color": "#F00404",
+            "info": {
+                "url": "http://gsc.ge/",
+                "logo": "http://gsc.ge/up1.jpg"
+            }
+        },
+        {
+            "name": "Gebrüder Weiss",
+            "value": 10,
+            "color": "#FF6500",
+            "info": {
+                "url": "http://www.gw-world.ge/",
+                "logo": "http://www.gw-world.rs/uploads/pics/GW_brand_RS.PNG"
             }
         },
         {
