@@ -1,422 +1,459 @@
 {
-	"data": [
-		{
-			"name": "Petrocas Energy Group",
-			"value": 300,
-			"color": "#C02631",
-			"info": {
-				"url": "http://petrocasenergy.com/",
-				"logo": "http://petrocasenergy.com/wp-content/uploads/2013/11/logo-petrocas-energy-group.png"
-			},
-			"dataLabels": {
-				"style": {
-					"fontSize": "36px"
-				}
-			}
-		},
-		{
-			"name": "Casino Adjara",
-			"value": 100,
-			"color": "#000000",
-			"info": {
-				"url": "http://casinoadjara.com/",
-				"logo": "http://casinoadjara.com/images/logo_mf.png"
-			},
-			"dataLabels": {
-				"style": {
-					"fontSize": "32px"
-				}
-			}
-		},
-		{
-			"name": "Liberty Bank",
-			"value": 100,
-			"color": "#EE3642",
-			"info": {
-				"url": "https://www.libertybank.ge/",
-				"logo": "https://www.libertybank.ge/pics/logo.gif"
-			}
-		},
-		{
-			"name": "Bank Of Georgia",
-			"value": 100,
-			"color": "#F48220",
-			"info": {
-				"url": "http://bankofgeorgia.ge/",
-				"logo": "http://bankofgeorgia.ge/m/u/ck/images/StaticPages/BankOfGergiaLogo.jpg"
-			}
-		},
-		{
-			"name": "PSP",
-			"value": 100,
-			"color": "#559C34",
-			"info": {
-				"url": "http://psp.ge/new/",
-				"logo": "http://psp.ge/new/res/images/desktop/logo.jpg"
-			}
-		},
-		{
-			"name": "Aversi",
-			"value": 100,
-			"color": "#ED3237",
-			"info": {
-				"url": "http://www.aversi.ge/",
-				"logo": "http://www.aversi.ge/intro/images/logo.png"
-			}
-		},
-		{
-			"name": "TBC Bank",
-			"value": 50,
-			"color": "#00A3E0",
-			"info": {
-				"url": "http://www.tbcbank.ge/web/ka",
-				"logo": "http://www.tbcbank.ge/tbcpw.portal-public-theme/images/tbc/tbc-logo-1.png"
-			}
-		},
-		{
-			"name": "Progress Bank",
-			"value": 50,
-			"color": "#72478E",
-			"info": {
-				"url": "http://progressbank.ge/",
-				"logo": "http://omedia.ge/images/portfolio/icons/progress-bank.png"
-			}
-		},
-		{
-			"name": "საქართველოს ფოსტა",
-			"value": 50,
-			"color": "#009DD3",
-			"info": {
-				"url": "http://www.georgianpost.ge/",
-				"logo": "http://www.georgianpost.ge/site/content/images/mui/ka/logo.png"
-			}
-		},
-		{
-			"name": "Europe-Bet",
-			"value": 50,
-			"color": "#FC781F",
-			"info": {
-				"url": "https://www.europe-bet.com/",
-				"logo": "https://www.europe-bet.com/Content/img/EB/europe-bet.png"
-			}
-		},
-		{
-			"name": "Socar",
-			"value": 50,
-			"color": "#201816",
-			"info": {
-				"url": "http://www.socar.ge/",
-				"logo": "http://www.socar.ge/img/logo.gif"
-			}
-		},
-		{
-			"name": "საქართველოს რკინიგზა",
-			"value": 50,
-			"color": "#FF0000",
-			"info": {
-				"url": "http://www.railway.ge/",
-				"logo": "http://www.railway.ge/pics/logo.png"
-			}
-		},
-		{
-			"name": "Silk Road Group",
-			"value": 50,
-			"color": "#008D51",
-			"info": {
-				"url": "http://www.silkroadgroup.net/",
-				"logo": "http://www.silkroadgroup.net/images/logo_en.jpg"
-			}
-		},
-		{
-			"name": "Magti",
-			"value": 50,
-			"color": "#D40200",
-			"info": {
-				"url": "http://www.magticom.ge/",
-				"logo": "http://www.magticom.ge/imgs/main_logo.gif"
-			}
-		},
-		{
-			"name": "Geocell",
-			"value": 50,
-			"color": "#642987",
-			"info": {
-				"url": "http://geocell.ge/",
-				"logo": "http://static.geocell.ge/content/images/mui/ka/elements/logo.png"
-			}
-		},
-		{
-			"name": "ინტერპრესნიუსი",
-			"value": 50,
-			"color": "#1E5BA6",
-			"info": {
-				"url": "http://www.interpressnews.ge/ge/",
-				"logo": "http://www.interpressnews.ge/ge/images/logo_new.png"
-			}
-		},
-		{
-			"name": "სახელმწიფო აუდიტის სამსახური",
-			"value": 50,
-			"color": "#C14041",
-			"info": {
-				"url": "http://sao.ge/",
-				"logo": "http://sao.ge/styles/images/logo-ge.png"
-			}
-		},
-		{
-			"name": "Bank Republic",
-			"value": 30,
-			"color": "#EC1A3A",
-			"info": {
-				"url": "https://www.br.ge/",
-				"logo": "https://www.br.ge/m/i/logo_ge.png"
-			}
-		},
-		{
-			"name": "Procredit Bank",
-			"value": 30,
-			"color": "#DC151F",
-			"info": {
-				"url": "http://www.procreditbank.ge/",
-				"logo": "http://www.procreditbank.ge/images/head/logon.jpg"
-			}
-		},
-		{
-			"name": "Wissol",
-			"value": 30,
-			"color": "#00A651",
-			"info": {
-				"url": "http://www.wissol.ge/",
-				"logo": "http://www.wissol.ge/img/qit.png"
-			}
-		},
-		{
-			"name": "Azəryolservis",
-			"value": 30,
-			"color": "#6692B3",
-			"info": {
-				"url": "http://www.azeryol.az/",
-				"logo": "http://azeryol.az/userimg/logo_az.png"
-			}
-		},
-		{
-			"name": "ევექსი",
-			"value": 25,
-			"color": "#009C91",
-			"info": {
-				"url": "http://www.evex.ge/ge/",
-				"logo": "http://www.evex.ge/res/app/imgs/logo-geo.png"
-			}
-		},
-		{
-			"name": "იმედი L",
-			"value": 25,
-			"color": "#FDEB0F",
-			"info": {
-				"url": "http://www.imedi-l.com/",
-				"logo": "http://freetravel.ge/wp-content/uploads/2015/04/logo_boats.png"
-			}
-		},
-		{
-			"name": "ORIFLAME",
-			"value": 25,
-			"color": "#231F20",
-			"info": {
-				"url": "http://ge.oriflame.com/",
-				"logo": "http://media-cis.oriflame.com/~/media/Images/Misc/Shared/Navigation/oriflame-logo.ashx"
-			}
-		},
-		{
-			"name": "GOLF CLUB AMBASADORI",
-			"value": 20,
-			"color": "#83694A",
-			"info": {
-				"url": "http://kachreti.ambasadori.ge/en/",
-				"logo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/v/t1.0-1/c28.28.347.347/s160x160/540761_356187887835138_591859555_n.jpg?oh=05b3a1d2978dc011829489d457ff455c&oe=5626D4CB&__gda__=1441478622_4fcc7f5c1b889a8b0826832041f7b028"
-			}
-		},
-		{
-			"name": "ბილაინი",
-			"value": 20,
-			"color": "#FBC70A",
-			"info": {
-				"url": "http://www.beeline.ge/ge/index.wbp",
-				"logo": "http://beeline.ge/media/hf_cis/hf/ge/set.png"
-			}
-		},
-		{
-			"name": "IDS ბორჯომი საქართველო",
-			"value": 20,
-			"color": "#0A1D39",
-			"info": {
-				"url": "http://www.borjomi.com/ge/",
-				"logo": "http://www.borjomi.com/images/borjomi/global/logo.png"
-			}
-		},
-		{
-			"name": "Casino Shangri La",
-			"value": 20,
-			"color": "#FFFDC3",
-			"info": {
-				"url": "http://shangrila.ge/",
-				"logo": "http://shangrila.ge/skins/default/images/logo.png"
-			}
-		},
-		{
-			"name": "ლუკოილი",
-			"value": 20,
-			"color": "#DF1A22",
-			"info": {
-				"url": "http://lukoil.ge/",
-				"logo": "http://lukoil.ge/images/logo.gif"
-			}
-		},
-		{
-			"name": "ნიკორა",
-			"value": 20,
-			"color": "#781C31",
-			"info": {
-				"url": "http://www.nikora.ge/",
-				"logo": "http://www.nikora.ge/images/logo.png"
-			}
-		},
-		{
-			"name": "ნატახტარი",
-			"value": 20,
-			"color": "#A10D23",
-			"info": {
-				"url": "http://www.natakhtari.ge/",
-				"logo": "http://ibusiness.ge/wp-content/uploads/2015/06/11352514_1135595539800450_865714051_n-680x365_c.jpg"
-			}
-		},
-		{
-			"name": "RAK Investment Authority",
-			"value": 20,
-			"color": "#D7B67E",
-			"info": {
-				"url": "http://www.http://dfa.ge/-ia.com/",
-				"logo": "http://rak-ia.com/v2/wp-content/uploads/2014/10/logo_new.jpg"
-			}
-		},
-		{
-			"name": "DFA",
-			"value": 10,
-			"color": "#050505",
-			"info": {
-				"url": "http://dfa.ge/",
-				"logo": "http://dfa.ge/images/logotype.png"
-			}
-		},
-		{
-			"name": "საქართველოს ინდუსტრიული ჯგუფი",
-			"value": 10,
-			"color": "#1E201D",
-			"info": {
-				"url": "http://www.gig.ge/",
-				"logo": "http://www.gig.ge/m/i/Logo_ge.png"
-			}
-		},
-		{
-			"name": "TOYOTA",
-			"value": 10,
-			"color": "#CC0004",
-			"info": {
-				"url": "http://www.toyota.ge/",
-				"logo": "http://www.macdonaldautogroup.com/macdonald/toyota/wp-content/themes/breton-toyota/library/images/toyota.png"
-			},
-			"dataLabels": {
-				"style": {
-					"fontSize": "12px"
-				}
-			}
-		},
-		{
-			"name": "Tegeta",
-			"value": 10,
-			"color": "#1F3240",
-			"info": {
-				"url": "http://www.tegetamotors.ge/",
-				"logo": "http://www.tegetamotors.ge/skins/default/images/logo.png"
-			}
-		},
-		{
-			"name": "ზედაზენი",
-			"value": 10,
-			"color": "#F3C201",
-			"info": {
-				"url": "http://www.geobeer.ge/index.php/eng/",
-				"logo": "http://www.geobeer.ge/templates/gk_penguinmail/images/logo.png"
-			}
-		},
-		{
-			"name": "IBG",
-			"value": 10,
-			"color": "#444041",
-			"info": {
-				"url": "http://www.ibg.ge/",
-				"logo": "http://www.ibg.ge/img_geo/logo_2.png"
-			}
-		},
-		{
-			"name": "ბარამბო",
-			"value": 15,
-			"color": "#341C1C",
-			"info": {
-				"url": "http://barambo.ge/",
-				"logo": "http://barambo.ge/themes/default/Components/images/new_logo.png"
-			}
-		},
-		{
-			"name": "არქი ჯგუფი",
-			"value": 10,
-			"color": "#27307E",
-			"info": {
-				"url": "http://www.archi.ge/archigeo.html",
-				"logo": "http://www.archi.ge/cache/multithumb_thumbs/b_250_160_16777215_00_images_logo_mig_geo.png"
-			}
-		},
-		{
-			"name": "Crystal",
-			"value": 5,
-			"color": "#ED1271",
-			"info": {
-				"url": "http://crystal.ge/ka/",
-				"logo": "http://crystal.ge/skins/default/img/logo_ka.png"
-			},
-			"dataLabels": {
-				"style": {
-					"fontSize": "8px"
-				}
-			}
-		},
-		{
-			"name": "გლდანის შაურმა",
-			"value": 5,
-			"color": "#EE454A",
-			"info": {
-				"url": "http://gldanisshaurma.gweb.ge/",
-				"logo": "http://static.gweb.ge/buffer/pictures/logo/68574499959ecdc44adb7d2bf0f6272e.jpg"
-			},
-			"dataLabels": {
-				"style": {
-					"fontSize": "10px"
-				}
-			}
-		},
-		{
-			"name": "ზოდი",
-			"value": 4,
-			"color": "#ED1C24",
-			"info": {
-				"url": "http://zodi.ge/ge/index",
-				"logo": "http://zodi.ge/img/logo.png"
-			},
-			"dataLabels": {
-				"style": {
-					"fontSize": "10px"
-				}
-			}
-		}
-	]
+    "data": [
+        {
+            "name": "Georgian American Alloys",
+            "value": 500,
+            "color": "#282828",
+            "info": {
+                "url": "http://www.gaalloys.ge/ge/",
+                "logo": "http://www.gaalloys.ge/images/GAA_Logo_100x570.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "32px"
+                }
+            }
+        },
+        {
+            "name": "Petrocas Energy Group",
+            "value": 200,
+            "color": "#C02631",
+            "info": {
+                "url": "http://petrocasenergy.com/",
+                "logo": "http://petrocasenergy.com/wp-content/uploads/2013/11/logo-petrocas-energy-group.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "36px"
+                }
+            }
+        },
+        {
+            "name": "საქართველოს საპატრიარქოk",
+            "value": 100,
+            "color": "#E02C2D",
+            "info": {
+                "url": "http://www.patriarchate.ge/",
+                "logo": "http://heraldika.ge/old12/uploads_script/services/5vu47567hm59yme.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "32px"
+                }
+            }
+        },
+        {
+            "name": "Casino Adjara",
+            "value": 100,
+            "color": "#000000",
+            "info": {
+                "url": "http://casinoadjara.com/",
+                "logo": "http://casinoadjara.com/images/logo_mf.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "32px"
+                }
+            }
+        },
+        {
+            "name": "Liberty Bank",
+            "value": 100,
+            "color": "#EE3642",
+            "info": {
+                "url": "https://www.libertybank.ge/",
+                "logo": "https://www.libertybank.ge/pics/logo.gif"
+            }
+        },
+        {
+            "name": "Bank Of Georgia",
+            "value": 100,
+            "color": "#F48220",
+            "info": {
+                "url": "http://bankofgeorgia.ge/",
+                "logo": "http://bankofgeorgia.ge/m/u/ck/images/StaticPages/BankOfGergiaLogo.jpg"
+            }
+        },
+        {
+            "name": "PSP",
+            "value": 100,
+            "color": "#559C34",
+            "info": {
+                "url": "http://psp.ge/new/",
+                "logo": "http://psp.ge/new/res/images/desktop/logo.jpg"
+            }
+        },
+        {
+            "name": "Aversi",
+            "value": 100,
+            "color": "#ED3237",
+            "info": {
+                "url": "http://www.aversi.ge/",
+                "logo": "http://www.aversi.ge/intro/images/logo.png"
+            }
+        },
+        {
+            "name": "TBC Bank",
+            "value": 50,
+            "color": "#00A3E0",
+            "info": {
+                "url": "http://www.tbcbank.ge/web/ka",
+                "logo": "http://www.tbcbank.ge/tbcpw.portal-public-theme/images/tbc/tbc-logo-1.png"
+            }
+        },
+        {
+            "name": "Progress Bank",
+            "value": 50,
+            "color": "#72478E",
+            "info": {
+                "url": "http://progressbank.ge/",
+                "logo": "http://omedia.ge/images/portfolio/icons/progress-bank.png"
+            }
+        },
+        {
+            "name": "საქართველოს ფოსტა",
+            "value": 50,
+            "color": "#009DD3",
+            "info": {
+                "url": "http://www.georgianpost.ge/",
+                "logo": "http://www.georgianpost.ge/site/content/images/mui/ka/logo.png"
+            }
+        },
+        {
+            "name": "საპარტნიორო ფონდი",
+            "value": 50,
+            "color": "#D3243D",
+            "info": {
+                "url": "http://www.fund.ge/",
+                "logo": "http://www.bpn.ge/pictures/image2/4160d2fef620aa35cbc023cd40e8b346.jpg"
+            }
+        },
+        {
+            "name": "Europe-Bet",
+            "value": 50,
+            "color": "#FC781F",
+            "info": {
+                "url": "https://www.europe-bet.com/",
+                "logo": "https://www.europe-bet.com/Content/img/EB/europe-bet.png"
+            }
+        },
+        {
+            "name": "Socar",
+            "value": 50,
+            "color": "#201816",
+            "info": {
+                "url": "http://www.socar.ge/",
+                "logo": "http://www.socar.ge/img/logo.gif"
+            }
+        },
+        {
+            "name": "საქართველოს რკინიგზა",
+            "value": 50,
+            "color": "#FF0000",
+            "info": {
+                "url": "http://www.railway.ge/",
+                "logo": "http://www.railway.ge/pics/logo.png"
+            }
+        },
+        {
+            "name": "Silk Road Group",
+            "value": 50,
+            "color": "#008D51",
+            "info": {
+                "url": "http://www.silkroadgroup.net/",
+                "logo": "http://www.silkroadgroup.net/images/logo_en.jpg"
+            }
+        },
+        {
+            "name": "Magti",
+            "value": 50,
+            "color": "#D40200",
+            "info": {
+                "url": "http://www.magticom.ge/",
+                "logo": "http://www.magticom.ge/imgs/main_logo.gif"
+            }
+        },
+        {
+            "name": "Geocell",
+            "value": 50,
+            "color": "#642987",
+            "info": {
+                "url": "http://geocell.ge/",
+                "logo": "http://static.geocell.ge/content/images/mui/ka/elements/logo.png"
+            }
+        },
+        {
+            "name": "ინტერპრესნიუსი",
+            "value": 50,
+            "color": "#1E5BA6",
+            "info": {
+                "url": "http://www.interpressnews.ge/ge/",
+                "logo": "http://www.interpressnews.ge/ge/images/logo_new.png"
+            }
+        },
+        {
+            "name": "სახელმწიფო აუდიტის სამსახური",
+            "value": 50,
+            "color": "#C14041",
+            "info": {
+                "url": "http://sao.ge/",
+                "logo": "http://sao.ge/styles/images/logo-ge.png"
+            }
+        },
+        {
+            "name": "Bank Republic",
+            "value": 30,
+            "color": "#EC1A3A",
+            "info": {
+                "url": "https://www.br.ge/",
+                "logo": "https://www.br.ge/m/i/logo_ge.png"
+            }
+        },
+        {
+            "name": "Procredit Bank",
+            "value": 30,
+            "color": "#DC151F",
+            "info": {
+                "url": "http://www.procreditbank.ge/",
+                "logo": "http://www.procreditbank.ge/images/head/logon.jpg"
+            }
+        },
+        {
+            "name": "Wissol",
+            "value": 30,
+            "color": "#00A651",
+            "info": {
+                "url": "http://www.wissol.ge/",
+                "logo": "http://www.wissol.ge/img/qit.png"
+            }
+        },
+        {
+            "name": "Azəryolservis",
+            "value": 30,
+            "color": "#6692B3",
+            "info": {
+                "url": "http://www.azeryol.az/",
+                "logo": "http://azeryol.az/userimg/logo_az.png"
+            }
+        },
+        {
+            "name": "ევექსი",
+            "value": 25,
+            "color": "#009C91",
+            "info": {
+                "url": "http://www.evex.ge/ge/",
+                "logo": "http://www.evex.ge/res/app/imgs/logo-geo.png"
+            }
+        },
+        {
+            "name": "იმედი L",
+            "value": 25,
+            "color": "#FDEB0F",
+            "info": {
+                "url": "http://www.imedi-l.com/",
+                "logo": "http://freetravel.ge/wp-content/uploads/2015/04/logo_boats.png"
+            }
+        },
+        {
+            "name": "ORIFLAME",
+            "value": 25,
+            "color": "#231F20",
+            "info": {
+                "url": "http://ge.oriflame.com/",
+                "logo": "http://media-cis.oriflame.com/~/media/Images/Misc/Shared/Navigation/oriflame-logo.ashx"
+            }
+        },
+        {
+            "name": "GOLF CLUB AMBASADORI",
+            "value": 20,
+            "color": "#83694A",
+            "info": {
+                "url": "http://kachreti.ambasadori.ge/en/",
+                "logo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/v/t1.0-1/c28.28.347.347/s160x160/540761_356187887835138_591859555_n.jpg?oh=05b3a1d2978dc011829489d457ff455c&oe=5626D4CB&__gda__=1441478622_4fcc7f5c1b889a8b0826832041f7b028"
+            }
+        },
+        {
+            "name": "ბილაინი",
+            "value": 20,
+            "color": "#FBC70A",
+            "info": {
+                "url": "http://www.beeline.ge/ge/index.wbp",
+                "logo": "http://beeline.ge/media/hf_cis/hf/ge/set.png"
+            }
+        },
+        {
+            "name": "IDS ბორჯომი საქართველო",
+            "value": 20,
+            "color": "#0A1D39",
+            "info": {
+                "url": "http://www.borjomi.com/ge/",
+                "logo": "http://www.borjomi.com/images/borjomi/global/logo.png"
+            }
+        },
+        {
+            "name": "Casino Shangri La",
+            "value": 20,
+            "color": "#FFFDC3",
+            "info": {
+                "url": "http://shangrila.ge/",
+                "logo": "http://shangrila.ge/skins/default/images/logo.png"
+            }
+        },
+        {
+            "name": "ლუკოილი",
+            "value": 20,
+            "color": "#DF1A22",
+            "info": {
+                "url": "http://lukoil.ge/",
+                "logo": "http://lukoil.ge/images/logo.gif"
+            }
+        },
+        {
+            "name": "ნიკორა",
+            "value": 20,
+            "color": "#781C31",
+            "info": {
+                "url": "http://www.nikora.ge/",
+                "logo": "http://www.nikora.ge/images/logo.png"
+            }
+        },
+        {
+            "name": "ნატახტარი",
+            "value": 20,
+            "color": "#A10D23",
+            "info": {
+                "url": "http://www.natakhtari.ge/",
+                "logo": "http://ibusiness.ge/wp-content/uploads/2015/06/11352514_1135595539800450_865714051_n-680x365_c.jpg"
+            }
+        },
+        {
+            "name": "RAK Investment Authority",
+            "value": 20,
+            "color": "#D7B67E",
+            "info": {
+                "url": "http://www.http://dfa.ge/-ia.com/",
+                "logo": "http://rak-ia.com/v2/wp-content/uploads/2014/10/logo_new.jpg"
+            }
+        },
+        {
+            "name": "DFA",
+            "value": 10,
+            "color": "#050505",
+            "info": {
+                "url": "http://dfa.ge/",
+                "logo": "http://dfa.ge/images/logotype.png"
+            }
+        },
+        {
+            "name": "საქართველოს ინდუსტრიული ჯგუფი",
+            "value": 10,
+            "color": "#1E201D",
+            "info": {
+                "url": "http://www.gig.ge/",
+                "logo": "http://www.gig.ge/m/i/Logo_ge.png"
+            }
+        },
+        {
+            "name": "TOYOTA",
+            "value": 10,
+            "color": "#CC0004",
+            "info": {
+                "url": "http://www.toyota.ge/",
+                "logo": "http://www.macdonaldautogroup.com/macdonald/toyota/wp-content/themes/breton-toyota/library/images/toyota.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "12px"
+                }
+            }
+        },
+        {
+            "name": "Tegeta",
+            "value": 10,
+            "color": "#1F3240",
+            "info": {
+                "url": "http://www.tegetamotors.ge/",
+                "logo": "http://www.tegetamotors.ge/skins/default/images/logo.png"
+            }
+        },
+        {
+            "name": "ზედაზენი",
+            "value": 10,
+            "color": "#F3C201",
+            "info": {
+                "url": "http://www.geobeer.ge/index.php/eng/",
+                "logo": "http://www.geobeer.ge/templates/gk_penguinmail/images/logo.png"
+            }
+        },
+        {
+            "name": "IBG",
+            "value": 10,
+            "color": "#444041",
+            "info": {
+                "url": "http://www.ibg.ge/",
+                "logo": "http://www.ibg.ge/img_geo/logo_2.png"
+            }
+        },
+        {
+            "name": "ბარამბო",
+            "value": 15,
+            "color": "#341C1C",
+            "info": {
+                "url": "http://barambo.ge/",
+                "logo": "http://barambo.ge/themes/default/Components/images/new_logo.png"
+            }
+        },
+        {
+            "name": "არქი ჯგუფი",
+            "value": 10,
+            "color": "#27307E",
+            "info": {
+                "url": "http://www.archi.ge/archigeo.html",
+                "logo": "http://www.archi.ge/cache/multithumb_thumbs/b_250_160_16777215_00_images_logo_mig_geo.png"
+            }
+        },
+        {
+            "name": "Crystal",
+            "value": 5,
+            "color": "#ED1271",
+            "info": {
+                "url": "http://crystal.ge/ka/",
+                "logo": "http://crystal.ge/skins/default/img/logo_ka.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "8px"
+                }
+            }
+        },
+        {
+            "name": "გლდანის შაურმა",
+            "value": 5,
+            "color": "#EE454A",
+            "info": {
+                "url": "http://gldanisshaurma.gweb.ge/",
+                "logo": "http://static.gweb.ge/buffer/pictures/logo/68574499959ecdc44adb7d2bf0f6272e.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
+            }
+        },
+        {
+            "name": "ზოდი",
+            "value": 4,
+            "color": "#ED1C24",
+            "info": {
+                "url": "http://zodi.ge/ge/index",
+                "logo": "http://zodi.ge/img/logo.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
+            }
+        }
+    ]
 
 }
