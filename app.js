@@ -1,39 +1,24 @@
-
 var app = {
-
     chart: null,
 
-    initialize: function()
-    {
-
-        if (app.chart === null)
-        {
+    initialize: function () {
+        if (app.chart === null) {
             app.chart = $('#container');
         }
 
         app.chart.text('Loading...');
-
     },
 
-    loadData: function(callback)
-    {
-
+    loadData: function (callback) {
         $.getJSON('data.json', callback);
-
     },
 
-    render: function()
-    {
-
-
-        app.loadData(function(response)
-        {
-
+    render: function () {
+        app.loadData(function (response) {
             app.chart.highcharts({
                 tooltip: {
                     useHTML: true,
-                    formatter: function ()
-                    {
+                    formatter: function () {
                         var result = '<b style="font-size:16px"><a target="_blank" href="' + this.point.info.url + '">' + this.point.name + '</a>' + ' - ' + this.point.value + ' 000 ლარი</b>';
                         result += '<br/>';
                         result += '<br/>';
@@ -61,18 +46,11 @@ var app = {
                     enabled: false
                 }
             });
-
         });
-
-
     }
-
 };
 
-$(function()
-{
-
+$(function () {
     app.initialize();
     app.render();
-
 });
