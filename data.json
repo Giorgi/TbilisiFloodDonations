@@ -29,21 +29,21 @@
 			}
 		},
 		{
-			"name": "Liberty Bank",
-			"value": 100,
-			"color": "#EE3642",
-			"info": {
-				"url": "https://www.libertybank.ge/",
-				"logo": "https://www.libertybank.ge/pics/logo.gif"
-			}
-		},
-		{
 			"name": "Bank Of Georgia",
 			"value": 100,
 			"color": "#F48220",
 			"info": {
 				"url": "http://bankofgeorgia.ge/",
 				"logo": "http://bankofgeorgia.ge/m/u/ck/images/StaticPages/BankOfGergiaLogo.jpg"
+			}
+		},
+		{
+			"name": "Liberty Bank",
+			"value": 100,
+			"color": "#EE3642",
+			"info": {
+				"url": "https://www.libertybank.ge/",
+				"logo": "https://www.libertybank.ge/pics/logo.gif"
 			}
 		},
 		{
