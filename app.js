@@ -51,6 +51,11 @@ var app = {
 };
 
 $(function () {
+    if (window.location.host == 'giorgi.github.io') {
+        window.location = "http://tbilisiflood.info/";
+        return;
+    }
+
     app.initialize();
     app.render();
 });
