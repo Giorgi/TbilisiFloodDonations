@@ -94,7 +94,7 @@
             },
             "dataLabels": {
                 "style": {
-                    "fontSize": "32px"
+                    "fontSize": "26px"
                 }
             }
         },
@@ -326,6 +326,11 @@
             "info": {
                 "url": "http://kachreti.ambasadori.ge/en/",
                 "logo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/v/t1.0-1/c28.28.347.347/s160x160/540761_356187887835138_591859555_n.jpg?oh=05b3a1d2978dc011829489d457ff455c&oe=5626D4CB&__gda__=1441478622_4fcc7f5c1b889a8b0826832041f7b028"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
             }
         },
         {
@@ -335,6 +340,11 @@
             "info": {
                 "url": "http://www.beeline.ge/ge/index.wbp",
                 "logo": "http://beeline.ge/media/hf_cis/hf/ge/set.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "12px"
+                }
             }
         },
         {
@@ -389,6 +399,11 @@
             "info": {
                 "url": "http://www.http://dfa.ge/-ia.com/",
                 "logo": "http://rak-ia.com/v2/wp-content/uploads/2014/10/logo_new.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
             }
         },
         {
