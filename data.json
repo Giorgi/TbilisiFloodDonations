@@ -536,6 +536,56 @@
             "info": {
                 "url": "http://outdoor.ge/",
                 "logo": "http://outdoor.ge/img/logo.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "12px"
+                }
+            }
+        },
+        {
+            "name": "GPC",
+            "value": 15,
+            "color": "#077DCA",
+            "info": {
+                "url": "http://gpc.ge/",
+                "logo": "http://gpc.ge/img/logo.png"
+            }
+        },
+        {
+            "name": "LIDER-BET.COM",
+            "value": 10,
+            "color": "#F2C841",
+            "info": {
+                "url": "https://www.lider-bet.com/web/ka/main/",
+                "logo": "https://www.lider-bet.com/gui/web/images/lider-bet.png?588"
+            }
+        },
+        {
+            "name": "net credit",
+            "value": 10,
+            "color": "#FF8600",
+            "info": {
+                "url": "https://www.netcredit.ge/index.html",
+                "logo": "https://www.netcredit.ge/images/netcredit-logo.png"
+            }
+        },
+        {
+            "name": "პაშა ბანკი",
+            "value": 10,
+            "color": "#C60C30",
+            "info": {
+                "url": "http://www.pashabank.ge/",
+                "logo": "http://www.pashabank.ge/m/i/logo_ge_2x.png"
+            }
+        },
+        {
+            "name": "ნოვა ტექნოლოჯი",
+            "value": 10,
+            "color": "#26337F",
+            "info": {
+                "url": "http://www.novatech.ge/",
+                "logo": "http://www.novatech.ge/templates/gk_gomuproject/images/logo.png"
             }
         },
         {
@@ -557,6 +607,24 @@
             }
         },
         {
+            "name": "იბერკომპანი",
+            "value": 10,
+            "color": "#2F52A2",
+            "info": {
+                "url": "http://www.ibercompany.ge/",
+                "logo": "http://www.ibercompany.ge/img/logo_geo.png"
+            }
+        },
+        {
+            "name": "Crystalbet",
+            "value": 10,
+            "color": "#F5B417",
+            "info": {
+                "url": "http://www.crystalbet.com/",
+                "logo": "http://crystalstatic.com/cache/b41/Styles/img/common/crystalbet_logo.png"
+            }
+        },
+        {
             "name": "Crystal",
             "value": 5,
             "color": "#ED1271",
@@ -568,6 +636,29 @@
                 "style": {
                     "fontSize": "8px"
                 }
+            }
+        },
+        {
+            "name": "დავით გაგუას კლინიკა",
+            "value": 5,
+            "color": "#9A7DB9",
+            "info": {
+                "url": "http://gaguaclinic.ge/",
+                "logo": "http://gaguaclinic.ge/img/logo.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "8px"
+                }
+            }
+        },
+        {
+            "name": "ჯინს გალერი",
+            "value": 5,
+            "color": "#000000",
+            "info": {
+                "url": "http://www.jg-group.ge/",
+                "logo": "http://www.jg-group.ge/images/logo.jpg"
             }
         },
         {
@@ -596,6 +687,24 @@
                 "style": {
                     "fontSize": "10px"
                 }
+            }
+        },
+        {
+            "name": "MiniCredit",
+            "value": 3,
+            "color": "#FBAB3B",
+            "info": {
+                "url": "https://www.minicredit.ge/",
+                "logo": "https://www.minicredit.ge/images/logo.png"
+            }
+        },
+        {
+            "name": "UNICREDIT.GE",
+            "value": 2,
+            "color": "#82BC3B",
+            "info": {
+                "url": "http://unicredit.ge/",
+                "logo": "http://unicredit.ge/img/logo.png"
             }
         }
     ]
