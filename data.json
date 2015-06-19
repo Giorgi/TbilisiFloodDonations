@@ -105,11 +105,6 @@
             "info": {
                 "url": "http://adjaragroup.com/",
                 "logo": "http://www.arabiantravelmarket.com/__novaimages/557306?q=100&v=635348148379800000&h=120&type=3&w=120"
-            },
-            "dataLabels": {
-                "style": {
-                    "fontSize": "26px"
-                }
             }
         },
         {
@@ -119,11 +114,6 @@
             "info": {
                 "url": "http://www.patriarchate.ge/",
                 "logo": "http://heraldika.ge/old12/uploads_script/services/5vu47567hm59yme.jpg"
-            },
-            "dataLabels": {
-                "style": {
-                    "fontSize": "26px"
-                }
             }
         },
         {
@@ -133,11 +123,6 @@
             "info": {
                 "url": "http://casinoadjara.com/",
                 "logo": "http://casinoadjara.com/images/logo_mf.png"
-            },
-            "dataLabels": {
-                "style": {
-                    "fontSize": "32px"
-                }
             }
         },
         {
@@ -539,7 +524,7 @@
             },
             "dataLabels": {
                 "style": {
-                    "fontSize": "12px"
+                    "fontSize": "8px"
                 }
             }
         },
@@ -659,6 +644,11 @@
             "info": {
                 "url": "http://www.jg-group.ge/",
                 "logo": "http://www.jg-group.ge/images/logo.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
             }
         },
         {
@@ -696,6 +686,11 @@
             "info": {
                 "url": "https://www.minicredit.ge/",
                 "logo": "https://www.minicredit.ge/images/logo.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
             }
         },
         {
@@ -705,6 +700,11 @@
             "info": {
                 "url": "http://unicredit.ge/",
                 "logo": "http://unicredit.ge/img/logo.png"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "10px"
+                }
             }
         }
     ]
