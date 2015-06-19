@@ -29,6 +29,20 @@
             }
         },
         {
+            "name": "GEORGIAN MANGANESE",
+            "value": 545,
+            "color": "#6B213C",
+            "info": {
+                "url": "http://www.gaalloys.com/index.php/about-gaa/gm",
+                "logo": "http://www.gaalloys.com/images/Chiatura%20Manganese%20Mine%20LOGO.jpg"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "32px"
+                }
+            }
+        },
+        {
             "name": "Georgian American Alloys",
             "value": 500,
             "color": "#282828",
@@ -81,6 +95,20 @@
             "dataLabels": {
                 "style": {
                     "fontSize": "32px"
+                }
+            }
+        },
+        {
+            "name": "Adjara Group Hospitality",
+            "value": 100,
+            "color": "#000000",
+            "info": {
+                "url": "http://adjaragroup.com/",
+                "logo": "http://www.arabiantravelmarket.com/__novaimages/557306?q=100&v=635348148379800000&h=120&type=3&w=120"
+            },
+            "dataLabels": {
+                "style": {
+                    "fontSize": "26px"
                 }
             }
         },
@@ -493,12 +521,39 @@
             }
         },
         {
+            "name": "Leogrand Hotel & Casino Batumi",
+            "value": 15,
+            "color": "#92835F",
+            "info": {
+                "url": "http://www.leograndhotel.com/hotel/GE-mtavarimtavari_gverdi.html",
+                "logo": "http://www.leograndhotel.com/hotel/images/logo.png"
+            }
+        },
+        {
+            "name": "OutdooR.ge",
+            "value": 15,
+            "color": "#F8931C",
+            "info": {
+                "url": "http://outdoor.ge/",
+                "logo": "http://outdoor.ge/img/logo.png"
+            }
+        },
+        {
             "name": "არქი ჯგუფი",
             "value": 10,
             "color": "#27307E",
             "info": {
                 "url": "http://www.archi.ge/archigeo.html",
                 "logo": "http://www.archi.ge/cache/multithumb_thumbs/b_250_160_16777215_00_images_logo_mig_geo.png"
+            }
+        },
+        {
+            "name": "PricewaterhouseCoopers",
+            "value": 10,
+            "color": "#CA5E2D",
+            "info": {
+                "url": "http://www.pwc.com/ge/en/",
+                "logo": "http://www.pwc.com/en_GX/webadmin/assets/image/pwclogo.gif"
             }
         },
         {
