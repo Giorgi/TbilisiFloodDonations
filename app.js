@@ -15,6 +15,13 @@ var app = {
 
     render: function () {
         app.loadData(function (response) {
+            
+            var total = 0;
+            for(var i=0, n=response.data.length; i < n; i++) 
+            { 
+                total += response.data[i].value; 
+            }
+
             app.chart.highcharts({
                 tooltip: {
                     useHTML: true,
@@ -41,7 +48,15 @@ var app = {
                     data: response.data
                 }],
                 title: {
-                    text: ''
+                    text: 'ჯამი: ' + (total*1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") +' ლარი',
+                    floating: true,
+                    align: 'left',
+                    x: 100,
+                    y: 30,
+                    style: {
+                        fontSize: '24px',
+                        fontWeight: 'bold'
+                    }
                 }, credits: {
                     enabled: false
                 }
