@@ -12,7 +12,9 @@ var app = {
     loadData: function (callback) {
         $.getJSON('data.json', callback);
     },
-
+    formatNumber: function(number) {
+        return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    },
     render: function () {
         app.loadData(function (response) {
             
@@ -26,7 +28,8 @@ var app = {
                 tooltip: {
                     useHTML: true,
                     formatter: function () {
-                        var result = '<b style="font-size:16px"><a target="_blank" href="' + this.point.info.url + '">' + this.point.name + '</a>' + ' - ' + this.point.value + ' 000 ლარი</b>';
+                        var result = '<b style="font-size:16px"><a target="_blank" href="' + this.point.info.url + '">' + this.point.name + '</a>' + ' - ' 
+                                        + app.formatNumber(this.point.value*1000) + ' ლარი</b>';
                         result += '<br/>';
                         result += '<br/>';
                         result += '<img src="' + this.point.info.logo + '"></img>';
@@ -48,7 +51,8 @@ var app = {
                     data: response.data
                 }],
                 title: {
-                    text: 'ჯამი: ' + (total*1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") +' ლარი',
+                    text: 'ჯამი: ' + app.formatNumber(total*1000) +' <img src="lari.png"></img>',
+                    useHTML: true,
                     floating: true,
                     align: 'left',
                     x: 100,
