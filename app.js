@@ -10,18 +10,34 @@ var app = {
     },
 
     loadData: function (callback) {
-        $.getJSON('data.json', callback);
+        $.getJSON('https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback);
     },
     formatNumber: function(number) {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     },
     render: function () {
         app.loadData(function (response) {
-            
+
+            var data = jQuery.map(response.feed.entry, function(item) {
+                var result = {
+                    name: item["gsx$name"]["$t"],
+                    value: parseInt(item["gsx$value"]["$t"], 10),
+                    color: item["gsx$color"]["$t"],
+                    info: {
+                        url: item["gsx$url"]["$t"],
+                        logo: item["gsx$logo"]["$t"]
+                    }
+                };
+
+                result.dataLabels = {style: {fontSize : result.value >= 1000 ? '36px' : result.value > 100 ? '32px' : result.value > 20 ?  '16px' : '8px' }};
+
+                return result;
+            });
+    
             var total = 0;
-            for(var i=0, n=response.data.length; i < n; i++) 
+            for(var i=0, n=data.length; i < n; i++) 
             { 
-                total += response.data[i].value; 
+                total += data[i].value; 
             }
 
             app.chart.highcharts({
@@ -48,7 +64,7 @@ var app = {
                             }
                         }
                     }],
-                    data: response.data
+                    data: data
                 }],
                 title: {
                     text: 'ჯამი: ' + app.formatNumber(total*1000) +' <img src="lari.png"></img>',
