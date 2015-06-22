@@ -45,8 +45,7 @@ var app = {
             });
 
             var total = 0;
-            for(var i=0, n=data.length; i < n; i++) 
-            { 
+            for (var i = 0, n = data.length; i < n; i++) {
                 total += data[i].value;
             }
 
@@ -77,7 +76,7 @@ var app = {
                     data: data
                 }],
                 title: {
-                    text: 'ჯამი: ' + app.formatNumber(total * 1000) + ' <img src="lari.png"></img>',
+                    text: 'სულ: ' + app.formatNumber(total * 1000) + ' <img src="lari.png"></img>',
                     useHTML: true,
                     floating: true,
                     align: 'left',
