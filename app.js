@@ -10,19 +10,25 @@ var app = {
     },
 
     loadData: function (callback) {
-        $.getJSON('https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback).fail(function (xhr, textStatus, errorThrown) {
+        $.ajax({
+            dataType: "json",
+            url: 'https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json',
+            data: {},
+            success: callback,
+            timeout: 3000
+        }).fail(function (xhr, textStatus, errorThrown) {
             if (xhr.state() === 'rejected') {
                 $.getJSON('http://cors.io/?u=https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback);
             }
         });
     },
-    formatNumber: function(number) {
+    formatNumber: function (number) {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     },
     render: function () {
         app.loadData(function (response) {
 
-            var data = jQuery.map(response.feed.entry, function(item) {
+            var data = jQuery.map(response.feed.entry, function (item) {
                 var result = {
                     name: item["gsx$name"]["$t"],
                     value: parseInt(item["gsx$value"]["$t"], 10),
@@ -33,23 +39,23 @@ var app = {
                     }
                 };
 
-                result.dataLabels = {style: {fontSize : result.value >= 1000 ? '36px' : result.value > 100 ? '32px' : result.value > 20 ?  '16px' : '8px' }};
+                result.dataLabels = { style: { fontSize: result.value >= 1000 ? '36px' : result.value > 100 ? '32px' : result.value > 20 ? '16px' : '8px' } };
 
                 return result;
             });
-    
+
             var total = 0;
             for(var i=0, n=data.length; i < n; i++) 
             { 
-                total += data[i].value; 
+                total += data[i].value;
             }
 
             app.chart.highcharts({
                 tooltip: {
                     useHTML: true,
                     formatter: function () {
-                        var result = '<b style="font-size:16px"><a target="_blank" href="' + this.point.info.url + '">' + this.point.name + '</a>' + ' - ' 
-                                        + app.formatNumber(this.point.value*1000) + ' ლარი</b>';
+                        var result = '<b style="font-size:16px"><a target="_blank" href="' + this.point.info.url + '">' + this.point.name + '</a>' + ' - '
+                                        + app.formatNumber(this.point.value * 1000) + ' ლარი</b>';
                         result += '<br/>';
                         result += '<br/>';
                         result += '<img src="' + this.point.info.logo + '"></img>';
@@ -71,7 +77,7 @@ var app = {
                     data: data
                 }],
                 title: {
-                    text: 'ჯამი: ' + app.formatNumber(total*1000) +' <img src="lari.png"></img>',
+                    text: 'ჯამი: ' + app.formatNumber(total * 1000) + ' <img src="lari.png"></img>',
                     useHTML: true,
                     floating: true,
                     align: 'left',
