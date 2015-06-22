@@ -10,7 +10,11 @@ var app = {
     },
 
     loadData: function (callback) {
-        $.getJSON('https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback);
+        $.getJSON('https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback).fail(function (xhr, textStatus, errorThrown) {
+            if (xhr.state() === 'rejected') {
+                $.getJSON('http://cors.io/?u=https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback);
+            }
+        });
     },
     formatNumber: function(number) {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
