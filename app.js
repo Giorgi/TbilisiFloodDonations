@@ -39,7 +39,7 @@ var app = {
                     }
                 };
 
-                result.dataLabels = { style: { fontSize: result.value >= 1000 ? '36px' : result.value >= 200 ? '32px' : result.value > 20 ? '16px' : '8px' } };
+                result.dataLabels = { style: { fontSize: result.value >= 1000 ? '36px' : result.value > 200 ? '32px' : result.value > 20 ? '16px' : '8px' } };
 
                 return result;
             });
