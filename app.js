@@ -12,13 +12,13 @@ var app = {
     loadData: function (callback) {
         $.ajax({
             dataType: "json",
-            url: 'https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json',
+            url: 'https://sheets.googleapis.com/v4/spreadsheets/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/values/Sheet1?key=AIzaSyCL-ELa1-5cbJpcgRcTLvgZpEUNxF0DBqo',
             data: {},
             success: callback,
             timeout: 3000
         }).fail(function (xhr, textStatus, errorThrown) {
             if (xhr.state() === 'rejected') {
-                $.getJSON('http://cors.io/?u=https://spreadsheets.google.com/feeds/list/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/od6/public/values?alt=json', callback);
+                $.getJSON('http://cors.io/?u=https://sheets.googleapis.com/v4/spreadsheets/15j7-zEXr6JTtR5m5p44gstSjHNzijm9uFBO8Naj4KgI/values/Sheet1?key=AIzaSyCL-ELa1-5cbJpcgRcTLvgZpEUNxF0DBqo', callback);
             }
         });
     },
@@ -28,14 +28,14 @@ var app = {
     render: function () {
         app.loadData(function (response) {
 
-            var data = jQuery.map(response.feed.entry, function (item) {
+            var data = jQuery.map(response.values.slice(1), function ([name, amount, color, url, logo]) {
                 var result = {
-                    name: item["gsx$name"]["$t"],
-                    value: parseInt(item["gsx$value"]["$t"], 10),
-                    color: item["gsx$color"]["$t"],
+                    name: name,
+                    value: parseInt(amount),
+                    color: color,
                     info: {
-                        url: item["gsx$url"]["$t"],
-                        logo: item["gsx$logo"]["$t"]
+                        url: url,
+                        logo: logo
                     }
                 };
 
